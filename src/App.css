@@ -1,0 +1,68 @@
+*{
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   background:linear-gradient(to bottom right, rgba(255, 192, 203, 0.742), rgba(255, 255, 255, 0.655)) ,url("https://images.pexels.com/photos/6692907/pexels-photo-6692907.jpeg?auto=compress&cs=tinysrgb&w=600");
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+#val{
+  width: 100px;
+  text-align: center;
+  font-size: 20px;
+  margin: 0 10px;
+  padding: 5px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  outline: none;
+  color: rgba(107, 47, 100, 0.801);
+}
+
+#val:focus {
+  border-color: #007bff;
+}
+#head{
+  color: darkred;
+  margin-left: -65px;
+  margin-bottom: 10px;
+}
+.btn {
+  width: 100px;
+  height: 60px;
+  border: none;
+  border-radius: 5%;
+  background-color:blue;
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  outline: none;
+}
+.decrement {
+  background-color:rgba(231, 72, 102, 0.63)
+}
+
+.bct:hover {
+  background-color: rgba(0, 0, 0, 0.822);
+}
+#b2{
+  margin-left: 80px;
+  margin-top: 20px;
+  padding: 10px  15px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgba(139, 0, 0, 0.756);
+  color: white;
+  font-size: 20px;
+}
+
